@@ -37,7 +37,7 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => \Yii::t('frontend','главная'), 'url' => ['/site/index']],
-        ['label' => \Yii::t('frontend','нагрузка'), 'url' => ['/site/workload']],
+        ['label' => \Yii::t('frontend','курсы'), 'url' => ['/site/workload']],
         ['label' => \Yii::t('frontend','Контакты'), 'url' => ['/site/contact']],
     ];
     if (Yii::$app->user->isGuest) {
