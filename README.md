@@ -11,7 +11,7 @@ create table databasename;
 common/config/main-local.php 
 нужно прописать базу. 
 
-php migrate/up
+php yii migrate/up
 
 php yii rates/update-rates 
 
