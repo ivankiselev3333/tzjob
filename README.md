@@ -1,17 +1,17 @@
 все подряд для сервера на убунту. 
 https://www.codegrepper.com/code-examples/php/ubuntu+install+php+7.4
+php init 
+опция 0 
 
 composer install
-
+php migrate/up
 create table databasename;
 
 common/config/main-local.php 
 нужно прописать базу. 
 
-php init 
-опция 0 
 
-php migrate/up
+
 
 crontab -e
 
