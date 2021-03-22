@@ -22,7 +22,9 @@ class RatesController extends ActiveController
             $date = '"' . date('Y-m-d 00:00:00', strtotime('now')) . '"';
 
         }
-        if (isset($params['url']) && $params['url'] === 'curs') {
+
+        if (isset($params['url']) && $params['url'] === 'latest') {
+
             Yii::$app->output->url($date, $format);
             Yii::$app->response->format = Response::FORMAT_HTML;
             return $this->render('curs');
@@ -42,24 +44,3 @@ class RatesController extends ActiveController
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
