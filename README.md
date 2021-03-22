@@ -21,6 +21,7 @@ crontab -e
 * * * * * sh /var/www/html/domain yiigetrates.sh
 
 один раз в день, в 23 59 
+
 23 59 * * * sh /var/www/html/domain yiigetrates.sh
 курсы обновляются один раз. 
 
