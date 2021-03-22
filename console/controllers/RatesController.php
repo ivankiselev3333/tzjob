@@ -59,3 +59,6 @@ class RatesController extends Controller
   
     
 }
+
+
+?>
