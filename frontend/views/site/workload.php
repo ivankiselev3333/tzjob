@@ -50,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </ul></div>
 <div class="col-lg-4">
      <ul class="tasks"><li class="task">
-        <a href="<?= Url::home('http');?>rates/getrates?format=latest">
+        <a href="<?= Url::home('http');?>rates/getrates?url=latest">
         <?= \Yii::t('frontend','latest.js russian utf8'); ?></a></li>
     </ul>
 
